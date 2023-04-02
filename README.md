@@ -1,5 +1,6 @@
 
-NHFR WEB SCRAPING PROJECT WITH PYTHON 
+NHFR WEB SCRAPING PROJECT WITH PYTHON:
+
 This Python script uses the Selenium library to scrape data from the Health Facility Registry (HFR) for Nigeria. It collects information about hospitals from the registry, and saves the data to a CSV file. The script utilizes the Chrome web driver and a for loop to navigate through all 20 pages of the HFR website, and collects records from each page using a nested for loop. The data is then written to a CSV file using the built-in "open" function, and stored as a single line with each field separated by a semicolon.
 Technologies Used:
 •	Programming languages: Python
