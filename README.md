@@ -17,13 +17,17 @@ The script uses Pandas to clean and pre-process the data. The following steps we
 5.	The date column is converted to a datetime object using pandas.to_datetime()
 
 Output:
+
 The web_scraping_NHFR script now contains cleaned data. The CSV file contains the same columns as the original dataset, but with any missing or inconsistent data removed, and the date column converted to a datetime object.
 
 Loading Pandas DataFrames to PostgreSQL using SQLAlchemy:
+
 The script provides an example of how to load data from a Pandas DataFrame to a PostgreSQL database using SQLAlchemy. To use this functionality, prepare your data as a Pandas DataFrame, and import the load_to_postgresql function from pandas_to_postgresql.py. Then, call the function with the DataFrame as the first argument.
 
 Loading Pandas to Postgres using sqlalchemy:
+
 The script provides an example of how to load data from a Pandas DataFrame to a PostgreSQL database using SQLAlchemy. To use this functionality, prepare your data as a Pandas DataFrame, and import the load_to_postgresql function from pandas_to_postgresql.py. Then, call the function with the DataFrame as the first argument.
 
 Data Analysis Using PostgreSQL
+
 <a href=" NHFR_web_scraping_with_python/NHFR_query.sql at main · taofeekadisa/NHFR_web_scraping_with_python (github.com) ">Data Analysis SQL Query</a>
