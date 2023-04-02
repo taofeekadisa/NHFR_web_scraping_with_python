@@ -1,10 +1,12 @@
+
+NHFR WEB SCRAPING PROJECT WITH PYTHON 
 This Python script uses the Selenium library to scrape data from the Health Facility Registry (HFR) for Nigeria. It collects information about hospitals from the registry, and saves the data to a CSV file. The script utilizes the Chrome web driver and a for loop to navigate through all 20 pages of the HFR website, and collects records from each page using a nested for loop. The data is then written to a CSV file using the built-in "open" function, and stored as a single line with each field separated by a semicolon.
 Technologies Used:
 •	Programming languages: Python
 •	Libraries: Selenium, time, and Pandas
 •	PostgreSQL
 Cleaning and Pre-processing with Pandas: 
-The script uses Pandas to clean and pre-process the data. The following steps are taken:
+The script uses Pandas to clean and pre-process the data. The following steps were taken:
 1.	The dataset is loaded from a CSV file using pandas.read_csv().
 2.	Rows with missing data are removed using pandas.dropna().
 3.	Duplicate rows are removed using pandas.drop_duplicates().
