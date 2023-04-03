@@ -40,4 +40,4 @@ The script provides an example of how to load data from a Pandas DataFrame to a 
 Data Analysis Using PostgreSQL
 
 
-<a href=" NHFR_web_scraping_with_python/NHFR_query.sql at main · taofeekadisa/NHFR_web_scraping_with_python (github.com) ">Data Analysis SQL Query</a>
+<a href="https://github.com/taofeekadisa/NHFR_web_scraping_with_python/blob/main/NHFR_query.sql">Data Analysis SQL Query</a>
