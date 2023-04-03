@@ -1,16 +1,4 @@
 
-A
-B
-B
-B
-
-
-D
-D
-B
-C
-Cs
-
 --alter table health_facility_registry drop column index
 
 /*Which Geo-political zone has the highest number of health professionals and the area with the lowest*/
